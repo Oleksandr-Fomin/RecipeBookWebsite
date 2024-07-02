@@ -1,0 +1,137 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.profile-actions .edit-profile-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-info .profile-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Recipe section styles */
+.recipe-section h2 {
+  color: #333;
+  margin: 20px 0;
+}
+
+/* Button styles */
+button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Add modal styles */
+/* You'll need to add the specific modal styling here */
+
+/* Input field styles */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Profile Settings Styles */
+.profile-settings {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.profile-settings h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.profile-settings form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-settings input[type="text"],
+.profile-settings input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+}
+
+.profile-settings button[type="submit"] {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px; /* Spacing between the button and the last input field */
+}
+
+.profile-settings button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.profile-settings p {
+  color: #ff0000;
+  margin-top: 10px;
+}
+.recipe-rating {
+  font-size: 1.2em; 
+  font-weight: bold;
+}
