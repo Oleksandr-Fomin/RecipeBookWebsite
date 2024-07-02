@@ -1,0 +1,19 @@
+sonar.projectKey=DigitalRecipe
+
+sonar.projectName=Digital Recipe Platform
+
+sonar.projectVersion=0.0.1-SNAPSHOT
+
+sonar.sources=src/main/java
+sonar.tests=src/test/java
+
+sonar.host.url=http://localhost:9000
+
+sonar.login=sqp_449fe4b0e3930fa13f3b9f3937303f09ee4ae77a
+
+sonar.sourceEncoding=UTF-8
+
+sonar.java.source=17
+
+sonar.coverage.jacoco.xmlReportPaths=build/reports/jacoco/test/jacocoTestReport.xml
+

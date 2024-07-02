@@ -1,0 +1,22 @@
+stages:
+  - build
+  - test
+  - sonarqube_analysis
+
+build_job:
+  stage: build
+  script:
+    - powershell -NoProfile -Command "./gradlew build"
+
+test_job:
+  stage: test
+  script:
+    - powershell -NoProfile -Command "./gradlew test"
+
+sonarqube_scan:
+  stage: sonarqube_analysis
+  script:
+    - powershell -NoProfile -Command "./gradlew sonar"
+
+  only:
+    - master
